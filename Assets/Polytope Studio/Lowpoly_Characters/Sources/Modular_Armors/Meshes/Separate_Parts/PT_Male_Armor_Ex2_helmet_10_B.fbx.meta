@@ -1,0 +1,2434 @@
+fileFormatVersion: 2
+guid: 79d5a556568797c4f85f6fbb13f49037
+ModelImporter:
+  serializedVersion: 20300
+  internalIDToNameTable: []
+  externalObjects: {}
+  materials:
+    materialImportMode: 2
+    materialName: 1
+    materialSearch: 2
+    materialLocation: 0
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 3
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 0
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    fileIdsGeneration: 2
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    keepQuads: 0
+    weldVertices: 1
+    bakeAxisConversion: 0
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    meshOptimizationFlags: -1
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVMarginMethod: 1
+    secondaryUVMinLightmapResolution: 40
+    secondaryUVMinObjectScale: 1
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
+  importAnimation: 1
+  humanDescription:
+    serializedVersion: 3
+    human:
+    - boneName: PT_Hips
+      humanName: Hips
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: PT_LeftUpLeg
+      humanName: LeftUpperLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: PT_RightUpLeg
+      humanName: RightUpperLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: PT_LeftLeg
+      humanName: LeftLowerLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: PT_RightLeg
+      humanName: RightLowerLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: PT_LeftFoot
+      humanName: LeftFoot
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: PT_RightFoot
+      humanName: RightFoot
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: PT_Spine
+      humanName: Spine
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: PT_Spine2
+      humanName: Chest
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: PT_Neck
+      humanName: Neck
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: PT_Head
+      humanName: Head
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: PT_LeftShoulder
+      humanName: LeftShoulder
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: PT_RightShoulder
+      humanName: RightShoulder
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: PT_LeftArm
+      humanName: LeftUpperArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: PT_RightArm
+      humanName: RightUpperArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: PT_LeftForeArm
+      humanName: LeftLowerArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: PT_RightForeArm
+      humanName: RightLowerArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: PT_LeftHand
+      humanName: LeftHand
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: PT_RightHand
+      humanName: RightHand
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: PT_LeftToe
+      humanName: LeftToes
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: PT_RightToe
+      humanName: RightToes
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: PT_LeftHandThumb1
+      humanName: Left Thumb Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: PT_LeftHandThumb2
+      humanName: Left Thumb Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: PT_LeftHandThumb3
+      humanName: Left Thumb Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: PT_LeftHandIndex1
+      humanName: Left Index Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: PT_LeftHandIndex2
+      humanName: Left Index Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: PT_LeftHandIndex3
+      humanName: Left Index Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: PT_LeftHandMiddle1
+      humanName: Left Middle Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: PT_LeftHandMiddle2
+      humanName: Left Middle Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: PT_LeftHandMiddle3
+      humanName: Left Middle Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: PT_LeftHandRing1
+      humanName: Left Ring Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: PT_LeftHandRing2
+      humanName: Left Ring Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: PT_LeftHandRing3
+      humanName: Left Ring Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: PT_LeftHandPinky1
+      humanName: Left Little Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: PT_LeftHandPinky2
+      humanName: Left Little Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: PT_LeftHandPinky3
+      humanName: Left Little Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: PT_RightHandThumb1
+      humanName: Right Thumb Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: PT_RightHandThumb2
+      humanName: Right Thumb Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: PT_RightHandThumb3
+      humanName: Right Thumb Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: PT_RightHandIndex1
+      humanName: Right Index Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: PT_RightHandIndex2
+      humanName: Right Index Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: PT_RightHandIndex3
+      humanName: Right Index Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: PT_RightHandMiddle1
+      humanName: Right Middle Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: PT_RightHandMiddle2
+      humanName: Right Middle Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: PT_RightHandMiddle3
+      humanName: Right Middle Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: PT_RightHandRing1
+      humanName: Right Ring Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: PT_RightHandRing2
+      humanName: Right Ring Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: PT_RightHandRing3
+      humanName: Right Ring Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: PT_RightHandPinky1
+      humanName: Right Little Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: PT_RightHandPinky2
+      humanName: Right Little Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: PT_RightHandPinky3
+      humanName: Right Little Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: PT_Spine3
+      humanName: UpperChest
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    skeleton:
+    - name: PT_Male_Armors_Ex2_Modular(Clone)
+      parentName: 
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: PT_Male_Armor_Ex2_body_01_A
+      parentName: PT_Male_Armors_Ex2_Modular(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: PT_Male_Armor_Ex2_body_01_B
+      parentName: PT_Male_Armors_Ex2_Modular(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: PT_Male_Armor_Ex2_body_01_C
+      parentName: PT_Male_Armors_Ex2_Modular(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: PT_Male_Armor_Ex2_body_02_A
+      parentName: PT_Male_Armors_Ex2_Modular(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: PT_Male_Armor_Ex2_body_02_B
+      parentName: PT_Male_Armors_Ex2_Modular(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: PT_Male_Armor_Ex2_body_02_C
+      parentName: PT_Male_Armors_Ex2_Modular(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: PT_Male_Armor_Ex2_body_03_A
+      parentName: PT_Male_Armors_Ex2_Modular(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: PT_Male_Armor_Ex2_body_03_B
+      parentName: PT_Male_Armors_Ex2_Modular(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: PT_Male_Armor_Ex2_body_03_C
+      parentName: PT_Male_Armors_Ex2_Modular(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: PT_Male_Armor_Ex2_body_04_A
+      parentName: PT_Male_Armors_Ex2_Modular(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: PT_Male_Armor_Ex2_body_04_B
+      parentName: PT_Male_Armors_Ex2_Modular(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: PT_Male_Armor_Ex2_body_04_C
+      parentName: PT_Male_Armors_Ex2_Modular(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: PT_Male_Armor_Ex2_body_05_A
+      parentName: PT_Male_Armors_Ex2_Modular(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: PT_Male_Armor_Ex2_body_05_B
+      parentName: PT_Male_Armors_Ex2_Modular(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: PT_Male_Armor_Ex2_body_05_C
+      parentName: PT_Male_Armors_Ex2_Modular(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: PT_Male_Armor_Ex2_body_06_A
+      parentName: PT_Male_Armors_Ex2_Modular(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: PT_Male_Armor_Ex2_body_06_B
+      parentName: PT_Male_Armors_Ex2_Modular(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: PT_Male_Armor_Ex2_body_06_C
+      parentName: PT_Male_Armors_Ex2_Modular(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: PT_Male_Armor_Ex2_body_07_A
+      parentName: PT_Male_Armors_Ex2_Modular(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: PT_Male_Armor_Ex2_body_07_B
+      parentName: PT_Male_Armors_Ex2_Modular(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: PT_Male_Armor_Ex2_body_07_C
+      parentName: PT_Male_Armors_Ex2_Modular(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: PT_Male_Armor_Ex2_body_08_A
+      parentName: PT_Male_Armors_Ex2_Modular(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: PT_Male_Armor_Ex2_body_08_B
+      parentName: PT_Male_Armors_Ex2_Modular(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: PT_Male_Armor_Ex2_body_08_C
+      parentName: PT_Male_Armors_Ex2_Modular(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: PT_Male_Armor_Ex2_body_09_A
+      parentName: PT_Male_Armors_Ex2_Modular(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: PT_Male_Armor_Ex2_body_09_B
+      parentName: PT_Male_Armors_Ex2_Modular(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: PT_Male_Armor_Ex2_body_09_C
+      parentName: PT_Male_Armors_Ex2_Modular(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: PT_Male_Armor_Ex2_body_10_A
+      parentName: PT_Male_Armors_Ex2_Modular(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: PT_Male_Armor_Ex2_body_10_B
+      parentName: PT_Male_Armors_Ex2_Modular(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: PT_Male_Armor_Ex2_body_10_C
+      parentName: PT_Male_Armors_Ex2_Modular(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: PT_Male_Armor_Ex2_body_11_A
+      parentName: PT_Male_Armors_Ex2_Modular(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: PT_Male_Armor_Ex2_body_11_B
+      parentName: PT_Male_Armors_Ex2_Modular(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: PT_Male_Armor_Ex2_body_11_C
+      parentName: PT_Male_Armors_Ex2_Modular(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: PT_Male_Armor_Ex2_body_12_A
+      parentName: PT_Male_Armors_Ex2_Modular(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: PT_Male_Armor_Ex2_body_12_B
+      parentName: PT_Male_Armors_Ex2_Modular(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: PT_Male_Armor_Ex2_body_12_C
+      parentName: PT_Male_Armors_Ex2_Modular(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: PT_Male_Armor_Ex2_body_13_A
+      parentName: PT_Male_Armors_Ex2_Modular(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: PT_Male_Armor_Ex2_body_13_B
+      parentName: PT_Male_Armors_Ex2_Modular(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: PT_Male_Armor_Ex2_body_13_C
+      parentName: PT_Male_Armors_Ex2_Modular(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: PT_Male_Armor_Ex2_body_14_A
+      parentName: PT_Male_Armors_Ex2_Modular(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: PT_Male_Armor_Ex2_body_14_B
+      parentName: PT_Male_Armors_Ex2_Modular(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: PT_Male_Armor_Ex2_body_14_C
+      parentName: PT_Male_Armors_Ex2_Modular(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: PT_Male_Armor_Ex2_body_15_A
+      parentName: PT_Male_Armors_Ex2_Modular(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: PT_Male_Armor_Ex2_body_15_B
+      parentName: PT_Male_Armors_Ex2_Modular(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: PT_Male_Armor_Ex2_body_15_C
+      parentName: PT_Male_Armors_Ex2_Modular(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: PT_Male_Armor_Ex2_body_16_A
+      parentName: PT_Male_Armors_Ex2_Modular(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: PT_Male_Armor_Ex2_body_16_B
+      parentName: PT_Male_Armors_Ex2_Modular(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: PT_Male_Armor_Ex2_body_16_C
+      parentName: PT_Male_Armors_Ex2_Modular(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: PT_Male_Armor_Ex2_body_16_D
+      parentName: PT_Male_Armors_Ex2_Modular(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: PT_Male_Armor_Ex2_boots_01_A
+      parentName: PT_Male_Armors_Ex2_Modular(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: PT_Male_Armor_Ex2_boots_01_B
+      parentName: PT_Male_Armors_Ex2_Modular(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: PT_Male_Armor_Ex2_boots_01_C
+      parentName: PT_Male_Armors_Ex2_Modular(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: PT_Male_Armor_Ex2_boots_02_A
+      parentName: PT_Male_Armors_Ex2_Modular(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: PT_Male_Armor_Ex2_boots_02_B
+      parentName: PT_Male_Armors_Ex2_Modular(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: PT_Male_Armor_Ex2_boots_02_C
+      parentName: PT_Male_Armors_Ex2_Modular(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: PT_Male_Armor_Ex2_boots_03_A
+      parentName: PT_Male_Armors_Ex2_Modular(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: PT_Male_Armor_Ex2_boots_03_B
+      parentName: PT_Male_Armors_Ex2_Modular(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: PT_Male_Armor_Ex2_boots_03_C
+      parentName: PT_Male_Armors_Ex2_Modular(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: PT_Male_Armor_Ex2_boots_04_A
+      parentName: PT_Male_Armors_Ex2_Modular(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: PT_Male_Armor_Ex2_boots_04_B
+      parentName: PT_Male_Armors_Ex2_Modular(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: PT_Male_Armor_Ex2_boots_04_C
+      parentName: PT_Male_Armors_Ex2_Modular(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: PT_Male_Armor_Ex2_boots_05_A
+      parentName: PT_Male_Armors_Ex2_Modular(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: PT_Male_Armor_Ex2_boots_05_B
+      parentName: PT_Male_Armors_Ex2_Modular(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: PT_Male_Armor_Ex2_boots_05_C
+      parentName: PT_Male_Armors_Ex2_Modular(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: PT_Male_Armor_Ex2_boots_06_A
+      parentName: PT_Male_Armors_Ex2_Modular(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: PT_Male_Armor_Ex2_boots_06_B
+      parentName: PT_Male_Armors_Ex2_Modular(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: PT_Male_Armor_Ex2_boots_06_C
+      parentName: PT_Male_Armors_Ex2_Modular(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: PT_Male_Armor_Ex2_boots_07_A
+      parentName: PT_Male_Armors_Ex2_Modular(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: PT_Male_Armor_Ex2_boots_07_B
+      parentName: PT_Male_Armors_Ex2_Modular(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: PT_Male_Armor_Ex2_boots_07_C
+      parentName: PT_Male_Armors_Ex2_Modular(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: PT_Male_Armor_Ex2_boots_08_A
+      parentName: PT_Male_Armors_Ex2_Modular(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: PT_Male_Armor_Ex2_boots_08_B
+      parentName: PT_Male_Armors_Ex2_Modular(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: PT_Male_Armor_Ex2_boots_08_C
+      parentName: PT_Male_Armors_Ex2_Modular(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: PT_Male_Armor_Ex2_boots_09_A
+      parentName: PT_Male_Armors_Ex2_Modular(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: PT_Male_Armor_Ex2_boots_09_B
+      parentName: PT_Male_Armors_Ex2_Modular(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: PT_Male_Armor_Ex2_boots_09_C
+      parentName: PT_Male_Armors_Ex2_Modular(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: PT_Male_Armor_Ex2_boots_10_A
+      parentName: PT_Male_Armors_Ex2_Modular(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: PT_Male_Armor_Ex2_boots_10_B
+      parentName: PT_Male_Armors_Ex2_Modular(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: PT_Male_Armor_Ex2_boots_10_C
+      parentName: PT_Male_Armors_Ex2_Modular(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: PT_Male_Armor_Ex2_boots_11_A
+      parentName: PT_Male_Armors_Ex2_Modular(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: PT_Male_Armor_Ex2_boots_11_B
+      parentName: PT_Male_Armors_Ex2_Modular(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: PT_Male_Armor_Ex2_boots_11_C
+      parentName: PT_Male_Armors_Ex2_Modular(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: PT_Male_Armor_Ex2_boots_12_A
+      parentName: PT_Male_Armors_Ex2_Modular(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: PT_Male_Armor_Ex2_boots_12_B
+      parentName: PT_Male_Armors_Ex2_Modular(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: PT_Male_Armor_Ex2_boots_12_C
+      parentName: PT_Male_Armors_Ex2_Modular(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: PT_Male_Armor_Ex2_boots_13_A
+      parentName: PT_Male_Armors_Ex2_Modular(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: PT_Male_Armor_Ex2_boots_13_B
+      parentName: PT_Male_Armors_Ex2_Modular(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: PT_Male_Armor_Ex2_boots_13_C
+      parentName: PT_Male_Armors_Ex2_Modular(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: PT_Male_Armor_Ex2_boots_14_A
+      parentName: PT_Male_Armors_Ex2_Modular(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: PT_Male_Armor_Ex2_boots_14_B
+      parentName: PT_Male_Armors_Ex2_Modular(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: PT_Male_Armor_Ex2_boots_14_C
+      parentName: PT_Male_Armors_Ex2_Modular(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: PT_Male_Armor_Ex2_boots_15_A
+      parentName: PT_Male_Armors_Ex2_Modular(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: PT_Male_Armor_Ex2_boots_15_B
+      parentName: PT_Male_Armors_Ex2_Modular(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: PT_Male_Armor_Ex2_boots_15_C
+      parentName: PT_Male_Armors_Ex2_Modular(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: PT_Male_Armor_Ex2_boots_16_A
+      parentName: PT_Male_Armors_Ex2_Modular(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: PT_Male_Armor_Ex2_boots_16_B
+      parentName: PT_Male_Armors_Ex2_Modular(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: PT_Male_Armor_Ex2_boots_16_C
+      parentName: PT_Male_Armors_Ex2_Modular(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: PT_Male_Armor_Ex2_boots_16_D
+      parentName: PT_Male_Armors_Ex2_Modular(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: PT_Male_Armor_Ex2_cape_01_A
+      parentName: PT_Male_Armors_Ex2_Modular(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: PT_Male_Armor_Ex2_cape_01_B
+      parentName: PT_Male_Armors_Ex2_Modular(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: PT_Male_Armor_Ex2_cape_01_C
+      parentName: PT_Male_Armors_Ex2_Modular(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: PT_Male_Armor_Ex2_cape_02_A
+      parentName: PT_Male_Armors_Ex2_Modular(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: PT_Male_Armor_Ex2_cape_02_B
+      parentName: PT_Male_Armors_Ex2_Modular(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: PT_Male_Armor_Ex2_cape_02_C
+      parentName: PT_Male_Armors_Ex2_Modular(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: PT_Male_Armor_Ex2_cape_03_A
+      parentName: PT_Male_Armors_Ex2_Modular(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: PT_Male_Armor_Ex2_cape_03_B
+      parentName: PT_Male_Armors_Ex2_Modular(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: PT_Male_Armor_Ex2_cape_03_C
+      parentName: PT_Male_Armors_Ex2_Modular(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: PT_Male_Armor_Ex2_cape_04_A
+      parentName: PT_Male_Armors_Ex2_Modular(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: PT_Male_Armor_Ex2_cape_04_B
+      parentName: PT_Male_Armors_Ex2_Modular(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: PT_Male_Armor_Ex2_cape_04_C
+      parentName: PT_Male_Armors_Ex2_Modular(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: PT_Male_Armor_Ex2_cape_05_A
+      parentName: PT_Male_Armors_Ex2_Modular(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: PT_Male_Armor_Ex2_cape_05_B
+      parentName: PT_Male_Armors_Ex2_Modular(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: PT_Male_Armor_Ex2_cape_05_C
+      parentName: PT_Male_Armors_Ex2_Modular(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: PT_Male_Armor_Ex2_cape_06_A
+      parentName: PT_Male_Armors_Ex2_Modular(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: PT_Male_Armor_Ex2_cape_06_B
+      parentName: PT_Male_Armors_Ex2_Modular(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: PT_Male_Armor_Ex2_cape_06_C
+      parentName: PT_Male_Armors_Ex2_Modular(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: PT_Male_Armor_Ex2_cape_07_A
+      parentName: PT_Male_Armors_Ex2_Modular(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: PT_Male_Armor_Ex2_cape_07_B
+      parentName: PT_Male_Armors_Ex2_Modular(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: PT_Male_Armor_Ex2_cape_07_C
+      parentName: PT_Male_Armors_Ex2_Modular(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: PT_Male_Armor_Ex2_cape_08_A
+      parentName: PT_Male_Armors_Ex2_Modular(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: PT_Male_Armor_Ex2_cape_08_B
+      parentName: PT_Male_Armors_Ex2_Modular(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: PT_Male_Armor_Ex2_cape_08_C
+      parentName: PT_Male_Armors_Ex2_Modular(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: PT_Male_Armor_Ex2_cape_09_A
+      parentName: PT_Male_Armors_Ex2_Modular(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: PT_Male_Armor_Ex2_cape_09_B
+      parentName: PT_Male_Armors_Ex2_Modular(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: PT_Male_Armor_Ex2_cape_09_C
+      parentName: PT_Male_Armors_Ex2_Modular(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: PT_Male_Armor_Ex2_cape_10_A
+      parentName: PT_Male_Armors_Ex2_Modular(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: PT_Male_Armor_Ex2_cape_10_B
+      parentName: PT_Male_Armors_Ex2_Modular(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: PT_Male_Armor_Ex2_cape_10_C
+      parentName: PT_Male_Armors_Ex2_Modular(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: PT_Male_Armor_Ex2_cape_11_A
+      parentName: PT_Male_Armors_Ex2_Modular(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: PT_Male_Armor_Ex2_cape_11_B
+      parentName: PT_Male_Armors_Ex2_Modular(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: PT_Male_Armor_Ex2_cape_11_C
+      parentName: PT_Male_Armors_Ex2_Modular(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: PT_Male_Armor_Ex2_cape_12_A
+      parentName: PT_Male_Armors_Ex2_Modular(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: PT_Male_Armor_Ex2_cape_12_B
+      parentName: PT_Male_Armors_Ex2_Modular(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: PT_Male_Armor_Ex2_cape_12_C
+      parentName: PT_Male_Armors_Ex2_Modular(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: PT_Male_Armor_Ex2_cape_13_A
+      parentName: PT_Male_Armors_Ex2_Modular(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: PT_Male_Armor_Ex2_cape_13_B
+      parentName: PT_Male_Armors_Ex2_Modular(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: PT_Male_Armor_Ex2_cape_13_C
+      parentName: PT_Male_Armors_Ex2_Modular(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: PT_Male_Armor_Ex2_cape_14_A
+      parentName: PT_Male_Armors_Ex2_Modular(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: PT_Male_Armor_Ex2_cape_14_B
+      parentName: PT_Male_Armors_Ex2_Modular(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: PT_Male_Armor_Ex2_cape_14_C
+      parentName: PT_Male_Armors_Ex2_Modular(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: PT_Male_Armor_Ex2_cape_15_A
+      parentName: PT_Male_Armors_Ex2_Modular(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: PT_Male_Armor_Ex2_cape_15_B
+      parentName: PT_Male_Armors_Ex2_Modular(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: PT_Male_Armor_Ex2_cape_15_C
+      parentName: PT_Male_Armors_Ex2_Modular(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: PT_Male_Armor_Ex2_cape_16_A
+      parentName: PT_Male_Armors_Ex2_Modular(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: PT_Male_Armor_Ex2_cape_16_B
+      parentName: PT_Male_Armors_Ex2_Modular(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: PT_Male_Armor_Ex2_cape_16_C
+      parentName: PT_Male_Armors_Ex2_Modular(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: PT_Male_Armor_Ex2_cape_16_D
+      parentName: PT_Male_Armors_Ex2_Modular(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: PT_Male_Armor_Ex2_gauntlets_01_A
+      parentName: PT_Male_Armors_Ex2_Modular(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: PT_Male_Armor_Ex2_gauntlets_01_B
+      parentName: PT_Male_Armors_Ex2_Modular(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: PT_Male_Armor_Ex2_gauntlets_01_C
+      parentName: PT_Male_Armors_Ex2_Modular(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: PT_Male_Armor_Ex2_gauntlets_02_A
+      parentName: PT_Male_Armors_Ex2_Modular(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: PT_Male_Armor_Ex2_gauntlets_02_B
+      parentName: PT_Male_Armors_Ex2_Modular(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: PT_Male_Armor_Ex2_gauntlets_02_C
+      parentName: PT_Male_Armors_Ex2_Modular(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: PT_Male_Armor_Ex2_gauntlets_03_A
+      parentName: PT_Male_Armors_Ex2_Modular(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: PT_Male_Armor_Ex2_gauntlets_03_B
+      parentName: PT_Male_Armors_Ex2_Modular(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: PT_Male_Armor_Ex2_gauntlets_03_C
+      parentName: PT_Male_Armors_Ex2_Modular(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: PT_Male_Armor_Ex2_gauntlets_04_A
+      parentName: PT_Male_Armors_Ex2_Modular(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: PT_Male_Armor_Ex2_gauntlets_04_B
+      parentName: PT_Male_Armors_Ex2_Modular(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: PT_Male_Armor_Ex2_gauntlets_04_C
+      parentName: PT_Male_Armors_Ex2_Modular(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: PT_Male_Armor_Ex2_gauntlets_05_A
+      parentName: PT_Male_Armors_Ex2_Modular(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: PT_Male_Armor_Ex2_gauntlets_05_B
+      parentName: PT_Male_Armors_Ex2_Modular(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: PT_Male_Armor_Ex2_gauntlets_05_C
+      parentName: PT_Male_Armors_Ex2_Modular(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: PT_Male_Armor_Ex2_gauntlets_06_A
+      parentName: PT_Male_Armors_Ex2_Modular(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: PT_Male_Armor_Ex2_gauntlets_06_B
+      parentName: PT_Male_Armors_Ex2_Modular(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: PT_Male_Armor_Ex2_gauntlets_06_C
+      parentName: PT_Male_Armors_Ex2_Modular(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: PT_Male_Armor_Ex2_gauntlets_07_A
+      parentName: PT_Male_Armors_Ex2_Modular(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: PT_Male_Armor_Ex2_gauntlets_07_B
+      parentName: PT_Male_Armors_Ex2_Modular(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: PT_Male_Armor_Ex2_gauntlets_07_C
+      parentName: PT_Male_Armors_Ex2_Modular(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: PT_Male_Armor_Ex2_gauntlets_08_A
+      parentName: PT_Male_Armors_Ex2_Modular(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: PT_Male_Armor_Ex2_gauntlets_08_B
+      parentName: PT_Male_Armors_Ex2_Modular(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: PT_Male_Armor_Ex2_gauntlets_08_C
+      parentName: PT_Male_Armors_Ex2_Modular(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: PT_Male_Armor_Ex2_gauntlets_09_A
+      parentName: PT_Male_Armors_Ex2_Modular(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: PT_Male_Armor_Ex2_gauntlets_09_B
+      parentName: PT_Male_Armors_Ex2_Modular(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: PT_Male_Armor_Ex2_gauntlets_09_C
+      parentName: PT_Male_Armors_Ex2_Modular(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: PT_Male_Armor_Ex2_gauntlets_10_A
+      parentName: PT_Male_Armors_Ex2_Modular(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: PT_Male_Armor_Ex2_gauntlets_10_B
+      parentName: PT_Male_Armors_Ex2_Modular(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: PT_Male_Armor_Ex2_gauntlets_10_C
+      parentName: PT_Male_Armors_Ex2_Modular(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: PT_Male_Armor_Ex2_gauntlets_11_A
+      parentName: PT_Male_Armors_Ex2_Modular(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: PT_Male_Armor_Ex2_gauntlets_11_B
+      parentName: PT_Male_Armors_Ex2_Modular(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: PT_Male_Armor_Ex2_gauntlets_11_C
+      parentName: PT_Male_Armors_Ex2_Modular(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: PT_Male_Armor_Ex2_gauntlets_12_A
+      parentName: PT_Male_Armors_Ex2_Modular(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: PT_Male_Armor_Ex2_gauntlets_12_B
+      parentName: PT_Male_Armors_Ex2_Modular(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: PT_Male_Armor_Ex2_gauntlets_12_C
+      parentName: PT_Male_Armors_Ex2_Modular(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: PT_Male_Armor_Ex2_gauntlets_13_A
+      parentName: PT_Male_Armors_Ex2_Modular(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: PT_Male_Armor_Ex2_gauntlets_13_B
+      parentName: PT_Male_Armors_Ex2_Modular(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: PT_Male_Armor_Ex2_gauntlets_13_C
+      parentName: PT_Male_Armors_Ex2_Modular(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: PT_Male_Armor_Ex2_gauntlets_14_A
+      parentName: PT_Male_Armors_Ex2_Modular(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: PT_Male_Armor_Ex2_gauntlets_14_B
+      parentName: PT_Male_Armors_Ex2_Modular(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: PT_Male_Armor_Ex2_gauntlets_14_C
+      parentName: PT_Male_Armors_Ex2_Modular(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: PT_Male_Armor_Ex2_gauntlets_15_A
+      parentName: PT_Male_Armors_Ex2_Modular(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: PT_Male_Armor_Ex2_gauntlets_15_B
+      parentName: PT_Male_Armors_Ex2_Modular(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: PT_Male_Armor_Ex2_gauntlets_15_C
+      parentName: PT_Male_Armors_Ex2_Modular(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: PT_Male_Armor_Ex2_gauntlets_16_A
+      parentName: PT_Male_Armors_Ex2_Modular(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: PT_Male_Armor_Ex2_gauntlets_16_B
+      parentName: PT_Male_Armors_Ex2_Modular(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: PT_Male_Armor_Ex2_gauntlets_16_C
+      parentName: PT_Male_Armors_Ex2_Modular(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: PT_Male_Armor_Ex2_gauntlets_16_D
+      parentName: PT_Male_Armors_Ex2_Modular(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: PT_Male_Armor_Ex2_helmet_01_C
+      parentName: PT_Male_Armors_Ex2_Modular(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: PT_Male_Armor_Ex2_helmet_02_A
+      parentName: PT_Male_Armors_Ex2_Modular(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: PT_Male_Armor_Ex2_helmet_02_B
+      parentName: PT_Male_Armors_Ex2_Modular(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: PT_Male_Armor_Ex2_helmet_02_C
+      parentName: PT_Male_Armors_Ex2_Modular(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: PT_Male_Armor_Ex2_helmet_07_C
+      parentName: PT_Male_Armors_Ex2_Modular(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: PT_Male_Armor_Ex2_helmet_08_A
+      parentName: PT_Male_Armors_Ex2_Modular(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: PT_Male_Armor_Ex2_helmet_08_B
+      parentName: PT_Male_Armors_Ex2_Modular(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: PT_Male_Armor_Ex2_helmet_08_C
+      parentName: PT_Male_Armors_Ex2_Modular(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: PT_Male_Armor_Ex2_helmet_09_A
+      parentName: PT_Male_Armors_Ex2_Modular(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: PT_Male_Armor_Ex2_helmet_09_B
+      parentName: PT_Male_Armors_Ex2_Modular(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: PT_Male_Armor_Ex2_helmet_09_C
+      parentName: PT_Male_Armors_Ex2_Modular(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: PT_Male_Armor_Ex2_helmet_10_A
+      parentName: PT_Male_Armors_Ex2_Modular(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: PT_Male_Armor_Ex2_helmet_10_B
+      parentName: PT_Male_Armors_Ex2_Modular(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: PT_Male_Armor_Ex2_helmet_10_C
+      parentName: PT_Male_Armors_Ex2_Modular(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: PT_Male_Armor_Ex2_helmet_11_C
+      parentName: PT_Male_Armors_Ex2_Modular(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: PT_Male_Armor_Ex2_helmet_12_C
+      parentName: PT_Male_Armors_Ex2_Modular(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: PT_Male_Armor_Ex2_helmet_13_B
+      parentName: PT_Male_Armors_Ex2_Modular(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: PT_Male_Armor_Ex2_helmet_13_C
+      parentName: PT_Male_Armors_Ex2_Modular(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: PT_Male_Armor_Ex2_helmet_14_A
+      parentName: PT_Male_Armors_Ex2_Modular(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: PT_Male_Armor_Ex2_helmet_14_B
+      parentName: PT_Male_Armors_Ex2_Modular(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: PT_Male_Armor_Ex2_helmet_14_C
+      parentName: PT_Male_Armors_Ex2_Modular(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: PT_Male_Armor_Ex2_helmet_15_A
+      parentName: PT_Male_Armors_Ex2_Modular(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: PT_Male_Armor_Ex2_helmet_15_B
+      parentName: PT_Male_Armors_Ex2_Modular(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: PT_Male_Armor_Ex2_helmet_15_C
+      parentName: PT_Male_Armors_Ex2_Modular(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: PT_Male_Armor_Ex2_helmet_nv_01_A
+      parentName: PT_Male_Armors_Ex2_Modular(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: PT_Male_Armor_Ex2_helmet_nv_01_B
+      parentName: PT_Male_Armors_Ex2_Modular(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: PT_Male_Armor_Ex2_helmet_nv_03_A
+      parentName: PT_Male_Armors_Ex2_Modular(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: PT_Male_Armor_Ex2_helmet_nv_03_B
+      parentName: PT_Male_Armors_Ex2_Modular(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: PT_Male_Armor_Ex2_helmet_nv_03_C
+      parentName: PT_Male_Armors_Ex2_Modular(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: PT_Male_Armor_Ex2_helmet_nv_04_A
+      parentName: PT_Male_Armors_Ex2_Modular(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: PT_Male_Armor_Ex2_helmet_nv_04_B
+      parentName: PT_Male_Armors_Ex2_Modular(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: PT_Male_Armor_Ex2_helmet_nv_04_C
+      parentName: PT_Male_Armors_Ex2_Modular(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: PT_Male_Armor_Ex2_helmet_nv_05_A
+      parentName: PT_Male_Armors_Ex2_Modular(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: PT_Male_Armor_Ex2_helmet_nv_05_B
+      parentName: PT_Male_Armors_Ex2_Modular(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: PT_Male_Armor_Ex2_helmet_nv_05_C
+      parentName: PT_Male_Armors_Ex2_Modular(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: PT_Male_Armor_Ex2_helmet_nv_06_A
+      parentName: PT_Male_Armors_Ex2_Modular(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: PT_Male_Armor_Ex2_helmet_nv_06_B
+      parentName: PT_Male_Armors_Ex2_Modular(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: PT_Male_Armor_Ex2_helmet_nv_06_C
+      parentName: PT_Male_Armors_Ex2_Modular(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: PT_Male_Armor_Ex2_helmet_nv_07_A
+      parentName: PT_Male_Armors_Ex2_Modular(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: PT_Male_Armor_Ex2_helmet_nv_07_B
+      parentName: PT_Male_Armors_Ex2_Modular(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: PT_Male_Armor_Ex2_helmet_nv_11_A
+      parentName: PT_Male_Armors_Ex2_Modular(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: PT_Male_Armor_Ex2_helmet_nv_11_B
+      parentName: PT_Male_Armors_Ex2_Modular(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: PT_Male_Armor_Ex2_helmet_nv_12_A
+      parentName: PT_Male_Armors_Ex2_Modular(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: PT_Male_Armor_Ex2_helmet_nv_12_B
+      parentName: PT_Male_Armors_Ex2_Modular(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: PT_Male_Armor_Ex2_helmet_nv_13_A
+      parentName: PT_Male_Armors_Ex2_Modular(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: PT_Male_Armor_Ex2_helmet_nv_16_A
+      parentName: PT_Male_Armors_Ex2_Modular(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: PT_Male_Armor_Ex2_helmet_nv_16_B
+      parentName: PT_Male_Armors_Ex2_Modular(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: PT_Male_Armor_Ex2_helmet_nv_16_C
+      parentName: PT_Male_Armors_Ex2_Modular(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: PT_Male_Armor_Ex2_helmet_nv_16_D
+      parentName: PT_Male_Armors_Ex2_Modular(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: PT_Male_Armor_Ex2_legs_01_A
+      parentName: PT_Male_Armors_Ex2_Modular(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: PT_Male_Armor_Ex2_legs_01_B
+      parentName: PT_Male_Armors_Ex2_Modular(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: PT_Male_Armor_Ex2_legs_01_C
+      parentName: PT_Male_Armors_Ex2_Modular(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: PT_Male_Armor_Ex2_legs_02_A
+      parentName: PT_Male_Armors_Ex2_Modular(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: PT_Male_Armor_Ex2_legs_02_B
+      parentName: PT_Male_Armors_Ex2_Modular(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: PT_Male_Armor_Ex2_legs_02_C
+      parentName: PT_Male_Armors_Ex2_Modular(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: PT_Male_Armor_Ex2_legs_03_A
+      parentName: PT_Male_Armors_Ex2_Modular(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: PT_Male_Armor_Ex2_legs_03_B
+      parentName: PT_Male_Armors_Ex2_Modular(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: PT_Male_Armor_Ex2_legs_03_C
+      parentName: PT_Male_Armors_Ex2_Modular(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: PT_Male_Armor_Ex2_legs_04_A
+      parentName: PT_Male_Armors_Ex2_Modular(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: PT_Male_Armor_Ex2_legs_04_B
+      parentName: PT_Male_Armors_Ex2_Modular(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: PT_Male_Armor_Ex2_legs_04_C
+      parentName: PT_Male_Armors_Ex2_Modular(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: PT_Male_Armor_Ex2_legs_05_A
+      parentName: PT_Male_Armors_Ex2_Modular(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: PT_Male_Armor_Ex2_legs_05_B
+      parentName: PT_Male_Armors_Ex2_Modular(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: PT_Male_Armor_Ex2_legs_05_C
+      parentName: PT_Male_Armors_Ex2_Modular(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: PT_Male_Armor_Ex2_legs_06_A
+      parentName: PT_Male_Armors_Ex2_Modular(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: PT_Male_Armor_Ex2_legs_06_B
+      parentName: PT_Male_Armors_Ex2_Modular(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: PT_Male_Armor_Ex2_legs_06_C
+      parentName: PT_Male_Armors_Ex2_Modular(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: PT_Male_Armor_Ex2_legs_07_A
+      parentName: PT_Male_Armors_Ex2_Modular(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: PT_Male_Armor_Ex2_legs_07_B
+      parentName: PT_Male_Armors_Ex2_Modular(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: PT_Male_Armor_Ex2_legs_07_C
+      parentName: PT_Male_Armors_Ex2_Modular(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: PT_Male_Armor_Ex2_legs_08_A
+      parentName: PT_Male_Armors_Ex2_Modular(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: PT_Male_Armor_Ex2_legs_08_B
+      parentName: PT_Male_Armors_Ex2_Modular(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: PT_Male_Armor_Ex2_legs_08_C
+      parentName: PT_Male_Armors_Ex2_Modular(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: PT_Male_Armor_Ex2_legs_09_A
+      parentName: PT_Male_Armors_Ex2_Modular(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: PT_Male_Armor_Ex2_legs_09_B
+      parentName: PT_Male_Armors_Ex2_Modular(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: PT_Male_Armor_Ex2_legs_09_C
+      parentName: PT_Male_Armors_Ex2_Modular(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: PT_Male_Armor_Ex2_legs_10_A
+      parentName: PT_Male_Armors_Ex2_Modular(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: PT_Male_Armor_Ex2_legs_10_B
+      parentName: PT_Male_Armors_Ex2_Modular(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: PT_Male_Armor_Ex2_legs_10_C
+      parentName: PT_Male_Armors_Ex2_Modular(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: PT_Male_Armor_Ex2_legs_11_A
+      parentName: PT_Male_Armors_Ex2_Modular(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: PT_Male_Armor_Ex2_legs_11_B
+      parentName: PT_Male_Armors_Ex2_Modular(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: PT_Male_Armor_Ex2_legs_11_C
+      parentName: PT_Male_Armors_Ex2_Modular(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: PT_Male_Armor_Ex2_legs_12_A
+      parentName: PT_Male_Armors_Ex2_Modular(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: PT_Male_Armor_Ex2_legs_12_B
+      parentName: PT_Male_Armors_Ex2_Modular(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: PT_Male_Armor_Ex2_legs_12_C
+      parentName: PT_Male_Armors_Ex2_Modular(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: PT_Male_Armor_Ex2_legs_13_A
+      parentName: PT_Male_Armors_Ex2_Modular(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: PT_Male_Armor_Ex2_legs_13_B
+      parentName: PT_Male_Armors_Ex2_Modular(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: PT_Male_Armor_Ex2_legs_13_C
+      parentName: PT_Male_Armors_Ex2_Modular(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: PT_Male_Armor_Ex2_legs_14_A
+      parentName: PT_Male_Armors_Ex2_Modular(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: PT_Male_Armor_Ex2_legs_14_B
+      parentName: PT_Male_Armors_Ex2_Modular(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: PT_Male_Armor_Ex2_legs_14_C
+      parentName: PT_Male_Armors_Ex2_Modular(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: PT_Male_Armor_Ex2_legs_15_A
+      parentName: PT_Male_Armors_Ex2_Modular(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: PT_Male_Armor_Ex2_legs_15_B
+      parentName: PT_Male_Armors_Ex2_Modular(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: PT_Male_Armor_Ex2_legs_15_C
+      parentName: PT_Male_Armors_Ex2_Modular(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: PT_Male_Armor_Ex2_legs_16_A
+      parentName: PT_Male_Armors_Ex2_Modular(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: PT_Male_Armor_Ex2_legs_16_B
+      parentName: PT_Male_Armors_Ex2_Modular(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: PT_Male_Armor_Ex2_legs_16_C
+      parentName: PT_Male_Armors_Ex2_Modular(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: PT_Male_Armor_Ex2_legs_16_D
+      parentName: PT_Male_Armors_Ex2_Modular(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: PT_Hips
+      parentName: PT_Male_Armors_Ex2_Modular(Clone)
+      position: {x: -0, y: 1.03, z: 0}
+      rotation: {x: 0.47708434, y: -0.5219111, z: -0.4770837, w: 0.5219104}
+      scale: {x: 1, y: 1, z: 1}
+    - name: PT_Second_Weapon_slot
+      parentName: PT_Hips
+      position: {x: 0.07120461, y: -0.0005602192, z: 0.21549243}
+      rotation: {x: 0.86677533, y: 0.494732, z: 0.051513862, w: 0.035877336}
+      scale: {x: 1, y: 1, z: 1}
+    - name: PT_Weapon_slot
+      parentName: PT_Hips
+      position: {x: 0.07296645, y: 0.01986541, z: -0.20865087}
+      rotation: {x: 0.85937583, y: 0.49586207, z: 0.05357497, w: -0.11279954}
+      scale: {x: 1, y: 1, z: 1}
+    - name: PT_Left_Accessories_slot
+      parentName: PT_Hips
+      position: {x: 0.010706535, y: -0.105100274, z: 0.17047384}
+      rotation: {x: -0.5874299, y: -0.25139484, z: -0.540713, w: 0.5471345}
+      scale: {x: 1, y: 1, z: 1}
+    - name: PT_Right_Accessories_slot
+      parentName: PT_Hips
+      position: {x: -0.012785488, y: 0.01555729, z: -0.1510165}
+      rotation: {x: 0.61720353, y: 0.3965406, z: -0.49999306, w: 0.4602416}
+      scale: {x: 1, y: 1, z: 1}
+    - name: PT_Spine
+      parentName: PT_Hips
+      position: {x: -0.083831996, y: 6.1578904e-16, z: -4.0837232e-17}
+      rotation: {x: -0.000000029802322, y: -0, z: 0.024711132, w: 0.9996947}
+      scale: {x: 1.0000385, y: 1.0000015, z: 1.00007}
+    - name: PT_Spine2
+      parentName: PT_Spine
+      position: {x: -0.117776476, y: -3.8985658e-17, z: 3.811648e-23}
+      rotation: {x: 0.00000006170583, y: 0.00000008621537, z: 0.056810834, w: 0.99838495}
+      scale: {x: 1.000012, y: 1.0000104, z: 1.0000349}
+    - name: PT_Spine3
+      parentName: PT_Spine2
+      position: {x: -0.09281013, y: -5.4253896e-17, z: -2.1175823e-24}
+      rotation: {x: -0.54247373, y: 0.31770554, z: 0.21268462, w: 0.74803126}
+      scale: {x: 0.9999991, y: 0.9997799, z: 1.0002705}
+    - name: PT_Long_Bow_slot
+      parentName: PT_Spine3
+      position: {x: 0.015542211, y: -0.2190202, z: -0.18627347}
+      rotation: {x: 0.47619087, y: -0.28103104, z: -0.4408529, w: 0.707045}
+      scale: {x: 1, y: 1, z: 1}
+    - name: PT_Medium_Bow_slot
+      parentName: PT_Spine3
+      position: {x: -0.09769622, y: -0.14922497, z: -0.1691995}
+      rotation: {x: 0.40387014, y: -0.25163707, z: -0.46910048, w: 0.74398416}
+      scale: {x: 1, y: 1, z: 1}
+    - name: PT_Quiver_Shield_slot
+      parentName: PT_Spine3
+      position: {x: -0.03257447, y: -0.12131526, z: -0.19553405}
+      rotation: {x: 0.5539293, y: -0.30938306, z: -0.513083, w: 0.57809204}
+      scale: {x: 1, y: 1, z: 1}
+    - name: PT_LeftShoulder
+      parentName: PT_Spine3
+      position: {x: -0.093022384, y: -3.5527135e-16, z: 2.4424906e-17}
+      rotation: {x: -0.036880698, y: 0.097807154, z: 0.3903812, w: 0.91470003}
+      scale: {x: 0.99527556, y: 1.0038292, z: 1.0008974}
+    - name: PT_LeftArm
+      parentName: PT_LeftShoulder
+      position: {x: -0.1204001, y: -1.7763567e-16, z: -6.9388935e-19}
+      rotation: {x: -0.0009888409, y: -0.018321924, z: 0.011123716, w: 0.99976987}
+      scale: {x: 1.0009551, y: 0.9995478, z: 0.9994861}
+    - name: PT_LeftForeArm
+      parentName: PT_LeftArm
+      position: {x: -0.27197617, y: 1.5987211e-16, z: 2.6128404e-16}
+      rotation: {x: 0.0015482629, y: 0.04696584, z: -0.03204943, w: 0.998381}
+      scale: {x: 1.0036085, y: 0.99893075, z: 0.99748737}
+    - name: PT_LeftHand
+      parentName: PT_LeftForeArm
+      position: {x: -0.26228172, y: -2.3092638e-16, z: 1.5543122e-16}
+      rotation: {x: -0.0054597077, y: 0.10916366, z: -0.050511014, w: 0.9927246}
+      scale: {x: 0.9803699, y: 1.0072372, z: 1.0126973}
+    - name: PT_Left_Hand_Weapon_slot
+      parentName: PT_LeftHand
+      position: {x: -0.08181856, y: -0.03594656, z: -0.024990112}
+      rotation: {x: 0.6188156, y: 0.027326724, z: -0.22196458, w: 0.75302875}
+      scale: {x: 1, y: 1, z: 1}
+    - name: PT_Left_Hand_Shield_slot
+      parentName: PT_LeftHand
+      position: {x: -0.08181856, y: -0.03594656, z: -0.024990112}
+      rotation: {x: -0.3267547, y: 0.69701517, z: -0.6378148, w: -0.024362652}
+      scale: {x: 1, y: 1, z: 1}
+    - name: PT_LeftHandIndex1
+      parentName: PT_LeftHand
+      position: {x: -0.098944165, y: 1.2323476e-16, z: -6.661338e-18}
+      rotation: {x: 0.0010554309, y: -0.09696605, z: 0.08938101, w: 0.99126565}
+      scale: {x: 1.0361725, y: 0.9751397, z: 0.9900257}
+    - name: PT_LeftHandIndex2
+      parentName: PT_LeftHandIndex1
+      position: {x: -0.042776372, y: -1.3348697e-16, z: -6.4392934e-17}
+      rotation: {x: 0.00032325284, y: -0.00056973816, z: 0.041313082, w: 0.9991461}
+      scale: {x: 0.81824684, y: 1.224178, z: 1.0024731}
+    - name: PT_LeftHandIndex3
+      parentName: PT_LeftHandIndex2
+      position: {x: -0.036915556, y: -9.381384e-17, z: 1.3322676e-17}
+      rotation: {x: -2.9103824e-11, y: -0, z: -8.4546037e-10, w: 1}
+      scale: {x: 0.99999994, y: 0.9999977, z: 0.9999777}
+    - name: PT_LeftHandMiddle1
+      parentName: PT_LeftHand
+      position: {x: -0.101627626, y: -0.0043835514, z: -0.02964611}
+      rotation: {x: 0.0013262271, y: -0.10656732, z: 0.09392368, w: 0.9898586}
+      scale: {x: 1.0409944, y: 0.97104686, z: 0.9896533}
+    - name: PT_LeftHandMiddle2
+      parentName: PT_LeftHandMiddle1
+      position: {x: -0.043095797, y: -3.9968027e-17, z: -8.8817837e-17}
+      rotation: {x: 0.007733442, y: 0.0025586023, z: 0.041591253, w: 0.9991015}
+      scale: {x: 0.74276894, y: 1.4029475, z: 0.9656348}
+    - name: PT_LeftHandMiddle3
+      parentName: PT_LeftHandMiddle2
+      position: {x: -0.03625977, y: -3.0033266e-16, z: -3.330669e-18}
+      rotation: {x: 4.6566118e-10, y: -0, z: 0.0000000022191666, w: 1}
+      scale: {x: 0.9999998, y: 0.999995, z: 1.000012}
+    - name: PT_LeftHandPinky1
+      parentName: PT_LeftHand
+      position: {x: -0.07451835, y: -0.013314292, z: -0.071662284}
+      rotation: {x: 0.0014549388, y: -0.1827645, z: 0.09025235, w: 0.9790044}
+      scale: {x: 1.044709, y: 0.97393465, z: 0.98317444}
+    - name: PT_LeftHandPinky2
+      parentName: PT_LeftHandPinky1
+      position: {x: -0.02998228, y: -3.8410247e-16, z: -6.356027e-17}
+      rotation: {x: 0.0041118814, y: 0.02594626, z: 0.034589488, w: 0.9990563}
+      scale: {x: 1.0399927, y: 1.060885, z: 0.9051972}
+    - name: PT_LeftHandPinky3
+      parentName: PT_LeftHandPinky2
+      position: {x: -0.02510077, y: 1.5851035e-17, z: -9.020562e-18}
+      rotation: {x: -0, y: -0, z: 0.0000000016880217, w: 1}
+      scale: {x: 0.9999985, y: 1.0000104, z: 0.999997}
+    - name: PT_LeftHandRing1
+      parentName: PT_LeftHand
+      position: {x: -0.08840657, y: -0.0044017676, z: -0.05399584}
+      rotation: {x: 0.0015961535, y: -0.13430215, z: 0.09830812, w: 0.98605067}
+      scale: {x: 1.0567967, y: 0.9589283, z: 0.98728037}
+    - name: PT_LeftHandRing2
+      parentName: PT_LeftHandRing1
+      position: {x: -0.04033898, y: -4.0620283e-16, z: -5.4400926e-17}
+      rotation: {x: 0.009093454, y: 0.010021403, z: 0.04471523, w: 0.9989081}
+      scale: {x: 0.81883895, y: 1.3119988, z: 0.9402609}
+    - name: PT_LeftHandRing3
+      parentName: PT_LeftHandRing2
+      position: {x: -0.037050046, y: -5.049433e-16, z: -4.9960034e-18}
+      rotation: {x: -0, y: -0, z: -0.0000000018335411, w: 1}
+      scale: {x: 0.9999708, y: 0.9999888, z: 1.0000024}
+    - name: PT_LeftHandThumb1
+      parentName: PT_LeftHand
+      position: {x: -0.04260052, y: -0.015449466, z: 0.029231247}
+      rotation: {x: -0.0018608544, y: 0.23679814, z: 0.10046678, w: 0.9663486}
+      scale: {x: 1.0271294, y: 0.94936043, z: 1.0257511}
+    - name: PT_LeftHandThumb2
+      parentName: PT_LeftHandThumb1
+      position: {x: -0.063977584, y: -2.176037e-16, z: -4.8849813e-17}
+      rotation: {x: -0.0888697, y: -0.02684422, z: 0.00088914944, w: 0.99568105}
+      scale: {x: 1.9032247, y: 1.0742675, z: 0.4953631}
+    - name: PT_LeftHandThumb3
+      parentName: PT_LeftHandThumb2
+      position: {x: -0.03966976, y: 5.4178885e-16, z: 3.2196467e-17}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 0.9999988, y: 0.99999744, z: 0.99999046}
+    - name: PT_LeftArmTwist
+      parentName: PT_LeftArm
+      position: {x: -2.1065638e-16, y: 5.9947433e-16, z: 1.2293818e-17}
+      rotation: {x: -1.1641531e-10, y: -0, z: 4.8021315e-10, w: 1}
+      scale: {x: 1.0000069, y: 0.99998647, z: 0.9999975}
+    - name: PT_RightShoulder
+      parentName: PT_Spine3
+      position: {x: -0.00027545454, y: 0.08885514, z: -0.027529115}
+      rotation: {x: -0.3508294, y: 0.9303962, z: -0.04169303, w: -0.097690746}
+      scale: {x: 0.9954594, y: 1.003794, z: 1.0010482}
+    - name: PT_RightArm
+      parentName: PT_RightShoulder
+      position: {x: -0.12040011, y: 2.3092638e-16, z: 5.412337e-17}
+      rotation: {x: 0.0009890086, y: 0.018322019, z: 0.011131196, w: 0.99976975}
+      scale: {x: 0.9994253, y: 1.0004002, z: 1.0008138}
+    - name: PT_RightForeArm
+      parentName: PT_RightArm
+      position: {x: -0.2719764, y: 1.7763568e-17, z: -1.0994677e-16}
+      rotation: {x: -0.001548282, y: -0.04696586, z: -0.03206483, w: 0.99838054}
+      scale: {x: 1.0087783, y: 0.996601, z: 0.9951574}
+    - name: PT_RightHand
+      parentName: PT_RightForeArm
+      position: {x: -0.26228175, y: -3.0198067e-16, z: -2.2204459e-17}
+      rotation: {x: 0.0054606143, y: -0.10916377, z: -0.050503116, w: 0.992725}
+      scale: {x: 0.9811061, y: 1.0048779, z: 1.0142106}
+    - name: PT_Right_Hand_Weapon_slot
+      parentName: PT_RightHand
+      position: {x: -0.09027952, y: -0.041081175, z: 0.026474979}
+      rotation: {x: 0.013854708, y: 0.6015055, z: 0.7777179, w: 0.18208282}
+      scale: {x: 1, y: 1, z: 1}
+    - name: PT_RightHandIndex1
+      parentName: PT_RightHand
+      position: {x: -0.098944165, y: -1.8596235e-16, z: -5.7731595e-17}
+      rotation: {x: -0.0010555318, y: 0.09696617, z: 0.08938112, w: 0.99126565}
+      scale: {x: 0.99362224, y: 0.9926065, z: 1.0140637}
+    - name: PT_RightHandIndex2
+      parentName: PT_RightHandIndex1
+      position: {x: -0.042776372, y: 1.4342694e-16, z: 6.4392934e-17}
+      rotation: {x: -0.0003870164, y: 0.00050024653, z: 0.03332165, w: 0.9994445}
+      scale: {x: 0.8630707, y: 1.1558021, z: 1.0021071}
+    - name: PT_RightHandIndex3
+      parentName: PT_RightHandIndex2
+      position: {x: -0.036915556, y: -4.4408918e-17, z: -1.3322676e-17}
+      rotation: {x: 2.9103817e-11, y: -0, z: -0.0000000010830655, w: 1}
+      scale: {x: 1.0000658, y: 0.99998444, z: 1.0000428}
+    - name: PT_RightHandMiddle1
+      parentName: PT_RightHand
+      position: {x: -0.101627626, y: -0.0043835524, z: 0.029646112}
+      rotation: {x: -0.0012134903, y: 0.10625817, z: 0.09459746, w: 0.98982775}
+      scale: {x: 0.99452186, y: 0.99121124, z: 1.0146253}
+    - name: PT_RightHandMiddle2
+      parentName: PT_RightHandMiddle1
+      position: {x: -0.043095797, y: 1.0616507e-16, z: 3.9968027e-17}
+      rotation: {x: -0.0077731903, y: -0.001424826, z: 0.029479763, w: 0.9995342}
+      scale: {x: 0.8123262, y: 1.2710549, z: 0.96912885}
+    - name: PT_RightHandMiddle3
+      parentName: PT_RightHandMiddle2
+      position: {x: -0.03625977, y: -1.2902873e-16, z: -8.881784e-18}
+      rotation: {x: -0, y: 0.0000000018626443, z: -0.000000011801598, w: 1}
+      scale: {x: 1.0000371, y: 0.9999985, z: 1.0000116}
+    - name: PT_RightHandPinky1
+      parentName: PT_RightHand
+      position: {x: -0.07451835, y: -0.013314295, z: 0.071662284}
+      rotation: {x: -0.0013790389, y: 0.1830836, z: 0.09079248, w: 0.97889495}
+      scale: {x: 0.9831354, y: 0.9918915, z: 1.0253509}
+    - name: PT_RightHandPinky2
+      parentName: PT_RightHandPinky1
+      position: {x: -0.029982278, y: -8.357898e-17, z: 4.0523138e-17}
+      rotation: {x: -0.0041374154, y: -0.023217408, z: 0.031258166, w: 0.99923307}
+      scale: {x: 1.0427492, y: 1.0424956, z: 0.92148936}
+    - name: PT_RightHandPinky3
+      parentName: PT_RightHandPinky2
+      position: {x: -0.025100768, y: 3.6070104e-16, z: 8.1185056e-18}
+      rotation: {x: -0, y: -0, z: 0.0000000010186336, w: 1}
+      scale: {x: 1.0000106, y: 0.9999961, z: 0.99999547}
+    - name: PT_RightHandRing1
+      parentName: PT_RightHand
+      position: {x: -0.08840657, y: -0.004401771, z: 0.053995837}
+      rotation: {x: -0.0014019535, y: 0.1342083, z: 0.099465504, w: 0.9859477}
+      scale: {x: 0.995418, y: 0.98654497, z: 1.0182126}
+    - name: PT_RightHandRing2
+      parentName: PT_RightHandRing1
+      position: {x: -0.04033898, y: 9.645062e-17, z: 5.8286706e-17}
+      rotation: {x: -0.009124354, y: -0.0078118527, z: 0.036168348, w: 0.99927354}
+      scale: {x: 0.87998825, y: 1.2006959, z: 0.9482635}
+    - name: PT_RightHandRing3
+      parentName: PT_RightHandRing2
+      position: {x: -0.037050046, y: -7.9380943e-17, z: 2.1649348e-17}
+      rotation: {x: -0, y: -0, z: -9.8953e-10, w: 1}
+      scale: {x: 1.0000314, y: 1.0000057, z: 1.0000231}
+    - name: PT_RightHandThumb1
+      parentName: PT_RightHand
+      position: {x: -0.04260052, y: -0.015449466, z: -0.02923125}
+      rotation: {x: 0.0014492468, y: -0.23741455, z: 0.1016923, w: 0.9660698}
+      scale: {x: 1.037418, y: 0.9919561, z: 0.97218776}
+    - name: PT_RightHandThumb2
+      parentName: PT_RightHandThumb1
+      position: {x: -0.06397758, y: 1.2878587e-16, z: 4.6629366e-17}
+      rotation: {x: 0.088884994, y: 0.040245704, z: -0.00053551653, w: 0.99522835}
+      scale: {x: 1.6215116, y: 1.060482, z: 0.5807944}
+    - name: PT_RightHandThumb3
+      parentName: PT_RightHandThumb2
+      position: {x: -0.03966976, y: -1.2656542e-16, z: -1.7763568e-17}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1.0000997, y: 1.0000083, z: 1.0000433}
+    - name: PT_RightArmTwist
+      parentName: PT_RightArm
+      position: {x: 1.0488458e-16, y: -9.6077624e-17, z: 8.861016e-17}
+      rotation: {x: -0, y: -0, z: 1.0732035e-10, w: 1}
+      scale: {x: 1.0002023, y: 1.0000092, z: 1.0001686}
+    - name: PT_Neck
+      parentName: PT_Spine3
+      position: {x: -0.09197777, y: 0.090044595, z: -0.01924255}
+      rotation: {x: -0.6698782, y: 0.3950311, z: -0.1701111, w: 0.6052073}
+      scale: {x: 1.0040076, y: 1.0008738, z: 0.9953322}
+    - name: PT_Head
+      parentName: PT_Neck
+      position: {x: -0.094428204, y: 1.8962325e-17, z: -1.5173513e-17}
+      rotation: {x: -0, y: -0.000000014901159, z: -0.09506807, w: 0.99547076}
+      scale: {x: 1.0018095, y: 0.9982626, z: 1.0000839}
+    - name: PT_HeadTop
+      parentName: PT_Head
+      position: {x: -0.2037306, y: 1.7313021e-17, z: -3.3881317e-23}
+      rotation: {x: 0.945247, y: -0.32635596, z: -0.00000033415162, w: 0.0000004110208}
+      scale: {x: 1.0559218, y: 0.947228, z: 1.0001742}
+    - name: PT_HeadTopFeathers
+      parentName: PT_HeadTop
+      position: {x: -0.11695324, y: -3.5357855e-17, z: -5.717472e-23}
+      rotation: {x: -0, y: 1.4210851e-14, z: -0, w: 1}
+      scale: {x: 1.0000033, y: 0.999999, z: 1.0000095}
+    - name: PT_LeftCape
+      parentName: PT_Spine3
+      position: {x: -0.07318415, y: 0.028553747, z: -0.15439864}
+      rotation: {x: -0.038841035, y: 0.099316806, z: 0.37910175, w: 0.9191895}
+      scale: {x: 0.9952781, y: 1.0038513, z: 1.0008788}
+    - name: PT_LeftCape2
+      parentName: PT_LeftCape
+      position: {x: -0.11147919, y: 0, z: 3.5527136e-17}
+      rotation: {x: 0.67137915, y: 0.6775087, z: -0.20748058, w: -0.21721849}
+      scale: {x: 1.0000744, y: 0.99364513, z: 1.0065445}
+    - name: PT_LeftCape3
+      parentName: PT_LeftCape2
+      position: {x: -0.36717218, y: -4.440892e-18, z: 5.939693e-17}
+      rotation: {x: -0.99902, y: -0.023894459, z: 0.00013250113, w: 0.03725934}
+      scale: {x: 1.0001904, y: 0.96145725, z: 1.0399741}
+    - name: PT_LeftCape4
+      parentName: PT_LeftCape3
+      position: {x: -0.3611782, y: -6.000755e-16, z: -1.0547119e-17}
+      rotation: {x: 0.99949545, y: 0.012401491, z: 0.00023250766, w: 0.029240882}
+      scale: {x: 0.99755675, y: 1.0439419, z: 0.9621739}
+    - name: PT_LeftCape5
+      parentName: PT_LeftCape4
+      position: {x: -0.32348844, y: -1.2043838e-15, z: -2.539635e-17}
+      rotation: {x: -0, y: -0, z: 9.3132235e-10, w: 1}
+      scale: {x: 0.99996245, y: 0.9999994, z: 0.99999386}
+    - name: PT_RightCape
+      parentName: PT_Spine3
+      position: {x: -0.07318412, y: 0.028553711, z: -0.15439864}
+      rotation: {x: -0.36224112, y: 0.92625254, z: -0.03969216, w: -0.096239686}
+      scale: {x: 0.99535537, y: 1.0038373, z: 1.0009321}
+    - name: PT_RightCape2
+      parentName: PT_RightCape
+      position: {x: -0.11147919, y: -2.7755576e-17, z: 1.0061396e-18}
+      rotation: {x: 0.32114178, y: 0.33236188, z: 0.6257811, w: 0.6283324}
+      scale: {x: 1.00018, y: 0.9936611, z: 1.0062263}
+    - name: PT_RightCape3
+      parentName: PT_RightCape2
+      position: {x: -0.36717215, y: 5.1070257e-17, z: -1.7763568e-17}
+      rotation: {x: -0.9990197, y: 0.00013250113, z: -0.023894519, w: -0.037266567}
+      scale: {x: 0.9986799, y: 1.0394709, z: 0.9636698}
+    - name: PT_RightCape4
+      parentName: PT_RightCape3
+      position: {x: -0.3611782, y: -6.1062266e-18, z: -5.7898127e-16}
+      rotation: {x: 0.99949473, y: 0.00023275835, z: 0.012401582, w: -0.02926515}
+      scale: {x: 1.0002799, y: 0.97629136, z: 1.0250356}
+    - name: PT_RightCape5
+      parentName: PT_RightCape4
+      position: {x: -0.32348844, y: 4.635181e-17, z: -9.531265e-16}
+      rotation: {x: -0, y: 9.3132246e-10, z: -0, w: 1}
+      scale: {x: 1.0000229, y: 1.0000447, z: 1.0000465}
+    - name: PT_LeftUpLeg
+      parentName: PT_Hips
+      position: {x: 0.09699472, y: -0.019688422, z: 0.073511496}
+      rotation: {x: 0.011041045, y: 0.87035054, z: 0.4908502, w: 0.03786958}
+      scale: {x: 1.0000001, y: 1, z: 0.99999976}
+    - name: PT_LeftLeg
+      parentName: PT_LeftUpLeg
+      position: {x: -0.4204908, y: -4.440892e-18, z: -9.7699626e-17}
+      rotation: {x: 0.92099285, y: 0.055278674, z: -0.0016831189, w: -0.385634}
+      scale: {x: 0.9999951, y: 1.0000013, z: 0.99994457}
+    - name: PT_LeftFoot
+      parentName: PT_LeftLeg
+      position: {x: -0.40447283, y: -1.6431301e-16, z: -3.5527136e-17}
+      rotation: {x: -0.87626255, y: -0.46598765, z: -0.05144219, w: 0.11123496}
+      scale: {x: 1.00006, y: 1.0000281, z: 1.0001261}
+    - name: PT_LeftToe
+      parentName: PT_LeftFoot
+      position: {x: -0.14408492, y: -6.701236e-17, z: -5.884182e-17}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 0.9999967, y: 1.0000017, z: 1.000018}
+    - name: PT_Left_BackCloth
+      parentName: PT_LeftUpLeg
+      position: {x: 0.026963577, y: -0.054737344, z: -0.1211017}
+      rotation: {x: -0.8506824, y: -0.04578488, z: 0.005521495, w: 0.5236534}
+      scale: {x: 1.000001, y: 1.0000416, z: 1.0000709}
+    - name: PT_Left_BackCloth2
+      parentName: PT_Left_BackCloth
+      position: {x: -0.18268178, y: 7.216449e-18, z: 4.440892e-18}
+      rotation: {x: 0.05296129, y: 0.0024423879, z: -0.0028562024, w: 0.9985896}
+      scale: {x: 1.0000826, y: 1.0000166, z: 1.0000181}
+    - name: PT_Left_BackCloth3
+      parentName: PT_Left_BackCloth2
+      position: {x: -0.20419002, y: -6.7583885e-16, z: -7.1621914e-16}
+      rotation: {x: -0, y: -0, z: 7.275957e-11, w: 1}
+      scale: {x: 1.0000206, y: 1.0000348, z: 1.0000194}
+    - name: PT_Left_FrontCloth
+      parentName: PT_LeftUpLeg
+      position: {x: 0.017208314, y: 0.07715735, z: 0.09652176}
+      rotation: {x: 0.49156654, y: 0.027014855, z: 0.008192215, w: 0.8703823}
+      scale: {x: 0.99997175, y: 1.0000002, z: 1}
+    - name: PT_Left_FrontCloth2
+      parentName: PT_Left_FrontCloth
+      position: {x: -0.17507017, y: -7.4940055e-17, z: 6.661338e-17}
+      rotation: {x: 0.000000059604645, y: 0.000000018626451, z: 0.011519792, w: 0.99993366}
+      scale: {x: 1.000081, y: 1.000099, z: 1.0000703}
+    - name: PT_Left_FrontCloth3
+      parentName: PT_Left_FrontCloth2
+      position: {x: -0.21644717, y: 1.388984e-16, z: -3.4666225e-18}
+      rotation: {x: -0, y: -0, z: -1.110223e-15, w: 1}
+      scale: {x: 0.9999829, y: 0.99997526, z: 0.9999985}
+    - name: PT_RightUpLeg
+      parentName: PT_Hips
+      position: {x: 0.097075336, y: -0.018753791, z: -0.07351145}
+      rotation: {x: 0.011375718, y: 0.86388886, z: -0.5020807, w: -0.03849247}
+      scale: {x: 1.0000001, y: 1.0000002, z: 1.0000021}
+    - name: PT_RightLeg
+      parentName: PT_RightUpLeg
+      position: {x: -0.4204678, y: -2.176037e-16, z: -1.4210854e-16}
+      rotation: {x: -0.91561145, y: -0.054688383, z: -0.0014702487, w: -0.398325}
+      scale: {x: 1.0000249, y: 1.0000906, z: 1.0000017}
+    - name: PT_RightFoot
+      parentName: PT_RightLeg
+      position: {x: -0.4044821, y: 6.5503156e-17, z: -1.7763568e-17}
+      rotation: {x: 0.87625384, y: 0.46621946, z: -0.051078126, w: 0.11049769}
+      scale: {x: 0.9999761, y: 0.999975, z: 1.0001808}
+    - name: PT_RightToe
+      parentName: PT_RightFoot
+      position: {x: -0.14409086, y: -3.0201535e-17, z: -1.1990408e-16}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 0.999978, y: 0.9999879, z: 1.0000392}
+    - name: PT_Right_BackCloth
+      parentName: PT_RightUpLeg
+      position: {x: 0.0267368, y: -0.052072443, z: 0.12333866}
+      rotation: {x: 0.84385353, y: 0.0450093, z: 0.0053797024, w: 0.5346556}
+      scale: {x: 1.0000713, y: 1.0001148, z: 1.000069}
+    - name: PT_Right_BackCloth2
+      parentName: PT_Right_BackCloth
+      position: {x: -0.18268164, y: 1.1657341e-16, z: -8.881784e-18}
+      rotation: {x: -0.05296042, y: -0.002442397, z: -0.0028562096, w: 0.9985896}
+      scale: {x: 1.0000178, y: 0.99999994, z: 1.000122}
+    - name: PT_Right_BackCloth3
+      parentName: PT_Right_BackCloth2
+      position: {x: -0.20418984, y: 1.2595811e-15, z: -1.244081e-15}
+      rotation: {x: -0.98478943, y: -0.009999452, z: -0.057132546, w: 0.16378531}
+      scale: {x: 1.000004, y: 0.99967885, z: 1.0002228}
+    - name: PT_Right_FrontCloth
+      parentName: PT_RightUpLeg
+      position: {x: 0.017468615, y: 0.07415585, z: -0.09764067}
+      rotation: {x: -0.50280917, y: -0.027389588, z: 0.007714851, w: 0.86392903}
+      scale: {x: 1.0000988, y: 1.0001115, z: 1.0001049}
+    - name: PT_Right_FrontCloth2
+      parentName: PT_Right_FrontCloth
+      position: {x: -0.17507017, y: 3.8302694e-17, z: 6.217249e-17}
+      rotation: {x: 0.000000059604638, y: 0.000000050291412, z: 0.011519823, w: 0.9999337}
+      scale: {x: 1.0000182, y: 1.0000489, z: 1.0000348}
+    - name: PT_Right_FrontCloth3
+      parentName: PT_Right_FrontCloth2
+      position: {x: -0.21644717, y: -7.2013566e-16, z: 8.343345e-18}
+      rotation: {x: 0.07300398, y: 0.062962286, z: 0.019755598, w: 0.9951462}
+      scale: {x: 1.000054, y: 1.0001379, z: 0.9999926}
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    globalScale: 1
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 1
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {fileID: 9000000, guid: 504837b5c90ea5d479b5f6eb608b2d52, type: 3}
+  autoGenerateAvatarMappingIfUnspecified: 1
+  animationType: 3
+  humanoidOversampling: 1
+  avatarSetup: 2
+  addHumanoidExtraRootOnlyWhenUsingAvatar: 1
+  remapMaterialsIfMaterialImportModeIsNone: 0
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
