@@ -2156,38 +2156,42 @@ namespace Den.Tools.Matrices
 							dst.arr[dstPos] = src.arr[srcPos];
 						}
 				}
-			#endif
+#endif
 
 
-			static public void BlendLayers (Matrix[] matrices, float[] opacity=null) 
-			/// Changes splatmaps in photoshop layered style so their summary value does not exceed 1
-			{
-				CoordRect? rect = matrices.Any()?.rect;
-				if (rect == null) return;
+        static public void BlendLayers (Matrix[] matrices, float[] opacity=null) 
+        /// Changes splatmaps in photoshop layered style so their summary value does not exceed 1
+        {
+            CoordRect? rect = matrices.Any()?.rect;
+            if (rect == null) return;
 
-				int rectCount = rect.Value.Count;
-				for (int pos=0; pos<rectCount; pos++)
-				{
-					float left = 1;
-					for (int i=matrices.Length-1; i>=0; i--) //layer 0 is background, layer Length-1 is the top one
-					{
-						if (matrices[i] == null) continue;
-						
-						float val = matrices[i].arr[pos];
+            int rectCount = rect.Value.Count;
+            for (int pos=0; pos<rectCount; pos++)
+            {
+                float left = 1;
+                for (int i=matrices.Length-1; i>=0; i--) //layer 0 is background, layer Length-1 is the top one
+                {
+                    if (matrices[i] == null) continue;
 
-						if (opacity != null) val *= opacity[i];
+                    float val = matrices[i].arr[pos];
 
-						val = val * left;
-						matrices[i].arr[pos] = val;
-						left -= val;
+                    if (opacity != null) val *= opacity[i];
 
-						if (left < 0) break;
-					}
-				}
-			}
+                    val = val * left;
+                    matrices[i].arr[pos] = val;
+                    left -= val;
+
+                    if (left < 0) break;
+                }
+            }
+        }
 
 
-			static public void NormalizeLayers (Matrix[] matrices, bool allowBelowOne=false) 
+
+
+
+
+        static public void NormalizeLayers (Matrix[] matrices, bool allowBelowOne=false) 
 			/// Just changes splatmaps so their summary value is always 1 (or never more than 1 if allowBelowOne disabled)
 			{
 				CoordRect? rect = matrices.Any()?.rect;

@@ -112,9 +112,9 @@ namespace MapMagic.Nodes.Biomes
 				layer.graph.Prepare(subData, terrain);
 			}
 		}
+        //
 
-
-		public override void Generate (TileData data, StopToken stop) 
+        public override void Generate (TileData data, StopToken stop) 
 		{
 			#if MM_DEBUG
 			Log.AddThreaded("Biome start (draft:" + data.isDraft + " gen:" + id);
@@ -182,9 +182,15 @@ namespace MapMagic.Nodes.Biomes
 			Log.AddThreaded("Biome generated (draft:" + data.isDraft + " gen:" + id);
 			#endif
 		}
+        //
+        
 
 
-		public void OnClearing (Graph graph, TileData data, ref bool isReady, bool totalRebuild=false) 
+
+
+
+
+        public void OnClearing (Graph graph, TileData data, ref bool isReady, bool totalRebuild=false) 
 		/// Will be called at least once when ClearChanged graph (no matter ready or not)
 		/// Returns true if changed
 		/// Inlets are already cleared to this moment, but not this node itself
